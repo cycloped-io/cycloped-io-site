@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+                <meta charset="utf-8"/>
+		<title>cycloped.io - An Interoperable Framework for Web Knowledge Bases</title>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+	</head>
+	<body>
+		<div class="container">
+                  <h1>cycloped.io</h1>
+                  <p>
+                  Cycloped.io is a framework consisting of three elements:
+                  <ul>
+                    <li>a reference taxonomy based on Cyc ontology
+                    <li>an open source system allowing for mapping and
+                    classifying external knowledge bases to the taxonomy
+                    <li>a classification of the Wikipedia articles into
+                    cycloped.io taxonomy
+                  </ul>
+                  </p>
+                  <h2>Taxonomy</h2>
+                  <p>There are three levels of the taxonomy:
+                    <ul>
+                      <li><a href="/data/taxonomy/2015-03/top-level.csv">Top-level</a> - 41 abstract types</li>
+                      <li><a href="/data/taxonomy/2015-03/mid-level.csv">Mid-level</a> - 1119 meaningful types</li>
+                      <li><a href="/data/taxonomy/2015-03/low-level.csv">Low-level</a> - 27 thousand types</li>
+                    </ul>
+                  </p>
+                  <h2>Source code</h2>
+                  <p>The source code of the system is available at 
+                    <a href="https://github.com/cycloped-io/cycloped-io">github.com/cycloped-io/cycloped-io</a>
+                  </p>
+                  <h2>Classification of English Wikipedia articles</h2>
+                  <ul>
+                    <li><a href="/data/classification/2015-03/en/fine-grained.csv">Fine-grained classification</a> -
+                    classification based on low-level types.
+                    <li><a href="/data/classification/2015-03/en/coarse-grained.csv">Coarse-grained classification</a> -
+                    classification based on mid-level types.
+                  </ul>
+                  <h2>Example</h2>
+                  <a
+                    href="http://en.wikipedia.org/wiki/Elvis_Presley">http://en.wikipedia.org/wiki/Elvis_Presley</a>:
+                  <ul>
+                    <li>Main type: <a href="http://sw.opencyc.org/concept/Mx4rvViAkpwpEbGdrcN5Y29ycA">Person</a></li>
+                    <li>Prominent types:
+                      <ul>
+                        <li><a href="http://sw.opencyc.org/concept/Mx4rvVjiz5wpEbGdrcN5Y29ycA">Singer</a> </li>
+                        <li><a href="http://sw.opencyc.org/concept/Mx4rvVjqXpwpEbGdrcN5Y29ycA">MusicalPerformer</a></li>
+                      </ul>
+                    </li>
+                    <li>Roles:
+                      <ul>
+                        <li><a href="http://sw.opencyc.org/concept/Mx4rvVjaHZwpEbGdrcN5Y29ycA">Actor</a></li> 
+                        <li><a href="http://sw.opencyc.org/concept/Mx4rwMRyTJwpEbGdrcN5Y29ycA">ActorInMovies</a></li>
+                        <li><a href="http://sw.opencyc.org/concept/Mx4rwMcZI5wpEbGdrcN5Y29ycA">Artist</a></li>
+                        <li><a href="http://sw.opencyc.org/concept/Mx4rvVjjEJwpEbGdrcN5Y29ycA">Artist-Performer</a></li> 
+                        <li><a href="http://sw.opencyc.org/concept/Mx4rvVi--5wpEbGdrcN5Y29ycA">Athlete</a></li> 
+                        <li><a href="http://sw.opencyc.org/concept/Mx4rvVjma5wpEbGdrcN5Y29ycA">FamousHuman</a></li>
+                        <li><a href="http://sw.opencyc.org/concept/Mx4rvVjvBZwpEbGdrcN5Y29ycA">MilitaryPerson</a></li>
+                        <li><a href="http://sw.opencyc.org/concept/Mx4rvVisB5wpEbGdrcN5Y29ycA">Musician</a></li> 
+                        <li><a href="http://sw.opencyc.org/concept/Mx4rvVjiz5wpEbGdrcN5Y29ycA">Singer</a></li> 
+                        <li><a href="http://sw.opencyc.org/concept/Mx4rvVjrTpwpEbGdrcN5Y29ycA">Soldier</a></li>
+                      </ul>
+                    </li>
+                    <li>Other types:
+                      <ul>
+                        <li><a href="http://sw.opencyc.org/concept/Mx4rvzoMspwpEbGdrcN5Y29ycA">Baritone-Singer</a></li> 
+                        <li><a href="http://sw.opencyc.org/concept/Mx4rvVjWoZwpEbGdrcN5Y29ycA">MaleHuman</a></li> 
+                        <li><a href="http://sw.opencyc.org/concept/Mx4rvVjqXpwpEbGdrcN5Y29ycA">MusicalPerformer</a></li> 
+                        <li><a href="http://sw.opencyc.org/concept/Mx4rvVj1zpwpEbGdrcN5Y29ycA">UnitedStatesPerson</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <h2>License</h2>
+                  <p>
+                    The classification is distributed under <a
+                      href="http://creativecommons.org/licenses/by/2.0/">Creative
+                    Commons BY</a> license.
+                  </p>
+                </div>
+	</body>
+</html>
